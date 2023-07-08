@@ -13,7 +13,7 @@ body {
     color: white;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700; 
     padding: 15px 20px;
     cursor: pointer;
 }
@@ -112,4 +112,29 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #757575;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    text-align: left;
+    margin-bottom: 0;
+}
+.info-description{
+    margin-top: 3px;
+    padding-top: 0;
+    /* font-weight: bold; */
+    color: #181818;
+    font-weight: 400;
 }
